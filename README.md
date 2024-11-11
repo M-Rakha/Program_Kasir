@@ -108,4 +108,6 @@ Struktur data ini dapat dikembangkan lebih lanjut dengan menambahkan fitur-fitur
 - Diskon dan Pajak: Menambahkan fitur diskon dan pajak pada kelas ItemKeranjang atau Keranjang.
 - Metode Pembayaran: Menambahkan kelas Pembayaran untuk mendukung berbagai metode pembayaran.
 - Data Kasir/Pegawai: Menambahkan kelas Kasir untuk menyimpan informasi kasir atau pegawai yang melakukan transaksi.
+
 Dengan struktur data yang fleksibel, program kasir ini dapat dengan mudah dikembangkan untuk memenuhi kebutuhan bisnis yang semakin kompleks.
+
