@@ -70,4 +70,42 @@ class Keranjang:
 - Saat pelanggan menambahkan barang ke keranjang, kita akan membuat objek ItemKeranjang dan menambahkannya ke dalam daftar items di objek Keranjang.
 - Objek Keranjang akan digunakan untuk menampilkan daftar barang, menghitung total harga, dan mencetak struk belanja.
 
+# Penggunaan
 
+Berikut adalah contoh penggunaan struktur data yang telah dijelaskan :
+
+```python
+# Membuat beberapa objek Barang
+barang1 = Barang("B001", "Beras", 15000)
+barang2 = Barang("B002", "Gula", 12000)
+
+# Membuat objek Keranjang
+keranjang = Keranjang()
+
+# Menambahkan barang ke keranjang
+keranjang.items.append(ItemKeranjang(barang1, 2))
+keranjang.items.append(ItemKeranjang(barang2, 1))
+
+# Menampilkan daftar barang dalam keranjang
+keranjang.tampilkan_daftar()
+
+# Menghitung total harga
+total = keranjang.hitung_total()
+print(f"Total belanja: Rp {total:,}")
+
+# Mencetak struk belanja
+keranjang.cetak_struk()
+```
+
+Struktur data yang dirancang memungkinkan program kasir ini memenuhi semua fitur yang diminta, seperti menambah barang, menampilkan daftar, menghitung total, dan mencetak struk belanja.
+
+# Pengembangan Lebih Lanjut
+
+Struktur data ini dapat dikembangkan lebih lanjut dengan menambahkan fitur-fitur seperti:
+
+- Manajemen Stok: Menambahkan atribut stok pada kelas Barang untuk melacak ketersediaan barang.
+- Sistem Kategori: Menambahkan kelas Kategori untuk mengorganisir barang berdasarkan kategori.
+- Diskon dan Pajak: Menambahkan fitur diskon dan pajak pada kelas ItemKeranjang atau Keranjang.
+- Metode Pembayaran: Menambahkan kelas Pembayaran untuk mendukung berbagai metode pembayaran.
+- Data Kasir/Pegawai: Menambahkan kelas Kasir untuk menyimpan informasi kasir atau pegawai yang melakukan transaksi.
+Dengan struktur data yang fleksibel, program kasir ini dapat dengan mudah dikembangkan untuk memenuhi kebutuhan bisnis yang semakin kompleks.
